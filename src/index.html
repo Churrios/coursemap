@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>選課地圖 - AI 智能課程搜尋</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .container { max-width: 600px; margin: auto; }
+    h1 { color: #0066cc; }
+    input[type="text"], select { width: 100%; padding: 8px; margin-bottom: 10px; }
+    button { padding: 8px 16px; margin-right: 5px; cursor: pointer; }
+    .course-item { border: 1px solid #ddd; padding: 10px; margin: 5px 0; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>選課地圖</h1>
+
+    <h3>🎯 透過興趣下拉式選單搜尋</h3>
+    <select id="interestSelect">
+      <option value="">請選擇興趣分類</option>
+      <option>人工智慧</option>
+      <option>企業管理</option>
+      <option>公民教育</option>
+      <option>健康科技</option>
+      <option>哲學思想</option>
+      <option>國際關係</option>
+      <option>地方文化</option>
+      <option>大眾傳播</option>
+      <option>天文學</option>
+      <option>心理學</option>
+      <option>故事分析</option>
+      <option>數位傳播</option>
+      <option>文化創意</option>
+      <option>文學研究</option>
+      <option>智慧城市</option>
+      <option>智慧財產</option>
+      <option>會計學</option>
+      <option>環境科學</option>
+      <option>生命教育</option>
+      <option>歷史文化</option>
+      <option>社會企業</option>
+      <option>社會參與</option>
+      <option>科技應用</option>
+      <option>程式設計</option>
+      <option>組織行為</option>
+      <option>經濟學</option>
+      <option>自然科學</option>
+      <option>財務管理</option>
+      <option>視覺傳播</option>
+      <option>都市研究</option>
+      <option>法律知識</option>
+      <option>音樂欣賞</option>
+      <option>風險管理</option>
+      <option>外交歷史</option>
+      <option>資料分析</option>
+      <option>行銷管理</option>
+      <option>神經科學</option>
+      <option>科學研究</option>
+      <option>人文素養</option>
+      <option>人權教育</option>
+    </select>
+    <button id="selectSearchBtn">搜尋課程</button>
+
+    <h3>🤖 AI 智能問答</h3>
+    <input type="text" id="aiInput" placeholder="我想問…（例如：星期二下午有什麼課？）" />
+    <button id="aiSearchBtn">用 AI 查詢</button>
+
+    <div id="courseList"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
