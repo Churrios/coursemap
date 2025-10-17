@@ -159,7 +159,7 @@ aiSearchBtn.addEventListener("click", async () => {
 
 請提供準確且簡潔的回答。`;
 
-    const endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCFmx7FZtLg0ivUWU0ajM1Cjt4OJ6u1N8s";
+    const endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
     
     const payload = {
       contents: [
