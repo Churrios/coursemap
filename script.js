@@ -9,12 +9,12 @@ import {
 
 // 初始化 Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyD2voO7A_v6-QRtMNNn02jI1S8X1zdOpyI",
-  authDomain: "course-map-cdd81.firebaseapp.com",
-  projectId: "course-map-cdd81",
-  storageBucket: "course-map-cdd81.appspot.com",
-  messagingSenderId: "913881017192",
-  appId: "1:913881017192:web:fd3708b9fe9971cc4544dd",
+  apiKey: ,
+  authDomain: ,
+  projectId: ,
+  storageBucket: ,
+  messagingSenderId: ,
+  appId: ,
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
